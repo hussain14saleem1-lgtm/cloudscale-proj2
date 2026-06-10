@@ -33,3 +33,9 @@ variable "student_name" {
   type        = string
   default     = "Hussain Saleem"
 }
+
+variable "owner" {
+  description = "Team or person responsible for the resources"
+  type        = string
+  default     = "Ramadan Swedik"
+}
