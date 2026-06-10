@@ -4,6 +4,8 @@ locals {
     Project     = "Project2"
     Environment = "production"
     StudentName = var.student_name
+    Owner       = var.owner
+    ManagedBy   = "Terraform"
   }
 }
 
